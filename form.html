@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,62 @@
     <title>Cadastro</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Cadastro de DEVs</h1>
+        <h3>Insira suas informações abaixo</h3>
+    </header>
+
+    <main>
+        <form>
+            <div class="form">
+                <label for="nome">Nome</label>
+                <input placeholder="Insira seu Nome" type="text" name="nome" id="nome">
+            </div>
+
+            <div class="form">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form">
+                <label>Área de Atuação</label>
+
+                <label for="front">
+                    <input value="front" type="radio" name="area" id="front" checked>Front-End
+                </label>
+
+                <label for="back">
+                    <input value="back" type="radio" name="area" id="back">Back-End
+                </label>
+
+                <label for="full">
+                    <input type="radio" name="area" id="full">FullStack
+                </label>
+            </div>
+
+            <div class="form">
+                <label for="exp">Senioridade</label>
+
+                <select name="exp" id="exp">
+                    <option selected disabled value="">--Selecione--</option>
+
+                    <option value="junior">Júnior</option>
+
+                    <option value="pleno">Pleno</option>
+
+                    <option value="senior">Sênior</option>
+                </select>
+            </div>
+
+            <div class="form">
+                
+            </div>
+        </form>
+    </main>
 </body>
 </html>
