@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --prt: black;
+    --azul: #14213D;
+    --amrl: #FCA311;
+    --pla: #E5E5E5;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--pla);
+}
+
+header{
+    text-align: center;
+    margin: 20px;
+    color: var(--azul);
+}
+header h1{
+    margin: 10px;
+}
+
+main{
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    padding: 25px;
+}
+.form{
+    margin-bottom: 20px;
+    padding: 3px 0px 3px 8px;
+}
+.form label{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+.form input, .form select{
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 60%;
+    border: 1px solid var(--amrl);
+}
+.form input[type="radio"]{
+    width: 15px;
+    margin: 2px;
+    padding: 0;
+    background-color: var(--amrl);
+}
+.form select{
+    width: 30%;
+}
